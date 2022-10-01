@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 100vh;
+    width: 100%;
+    background-image: url(headbackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 2%;
+    padding-right: 8%;
+    position: fixed;
+    cursor: pointer;
+
+}
+
+.logo{
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logohead{
+    color: red;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.engineer{
+    color: red ;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+  transform: translate(200%);
+    
+    
+}
+
+nav ul li:hover{
+   background-color: red;
+    transition: .4s;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+     color: black;
+}
+
+
+.content{
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    transform: translate(10%);
+    line-height: 60px;
+
+}
+.surname{
+    color:rgb(165, 88, 88);
+}
+
+.love{
+    background: linear-gradient(to right rgb(250, 134, 153));
+}
+.residence{
+    color: rgb(238, 108, 48);
+}
+
+.in{
+    color: orange;
+}
+
+.d{
+    color: white;
+}
+
+.ia{
+    color: green;
+}
+
+
+
+
+.work{
+    text-align: center;
+    justify-content: center;
+   background-color: white;
+
+}
+
+.textproject{
+    font-family: sans-serif;
+    margin-top: 2%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.img1{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 400px;
+    border-radius: 6%;
+    position: relative;
+    cursor: pointer;
+}
+
+.img1 img{
+    width: 400px;
+    height: 300px;
+}
+  
+.hovereffect img:hover
+{
+    transform: scale(1.1);
+     transition: .2s;
+}
+
+.hovereffect .popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.hovereffect .popup span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+   
+}
+
+.hovereffect .popup img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 700px;
+    object-fit: cover;
+   
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    line-height: 8vh;
+    font-size: 15px;
+}
+
+.btn1{
+    width: 15%;
+    height: 7vh;
+    position: relative;
+    border-radius:15px;
+    background-color: rgb(228, 228, 228);
+    right: 390px;
+    bottom: 40px;
+    border-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 15%;
+    height: 7vh;
+    position: relative;
+    border-radius:15px;
+    background-color: rgb(228, 228, 228);
+    right: 390px;
+    bottom: 40px;
+    border-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#color3{
+    color: rgb(35, 36, 35);
+}
+#color4{
+    color: green;
+}
+
+#text3{
+    font-family:sans-serif;
+    font-size: 17px;
+    
+}
+
+#text4{
+    font-size: 13px;
+}
+
+#ecom{
+    font-size: 16px;
+}
+.container{
+    display: flex;
+}
+
+#job a{
+     color: green;
+     text-decoration: none;
+}
+
+.ab1{
+  margin-top: 10px;
+  position: relative;
+  left: 50px;
+  font-size: 45px;
+  text-align: center;
+
+}
+.aboutme{
+    margin-top: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+#abme{
+     color: red;
+    
+
+}
+#UI{
+    color:green;
+}
+
+.stacktext{
+    margin-top: 20%;
+    margin-left: 6%;
+    font-size:40px;
+   text-align: center;
+}
+
+.box{
+    margin-top:80px ;
+   display: flex;
+   float: left;
+   width: 20%;
+   flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.box img{
+    width: 100%;
+    border-radius: 10%;
+    padding: 60px;
+    cursor: pointer;
+}
+
+.box img:hover{
+    transform: scale(1.5);
+   transition: 2s;
+}
+
+#tech{
+    color: red;
+}
+
+.sfont{
+    margin-top: 30%;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    
+}
+
+
+.education{
+      margin-top: 20%;
+      margin-left: 10%;
+      line-height: 10vh;
+      text-align: center;
+}
+
+#edu{
+    font-size: 50px;
+}
+
+#degree{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#university{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#edut{
+    color: red;
+}
+
+.contact{
+    margin-top: 15%;
+    margin-left: 10%;
+    line-height: 10vh;
+    text-align: center;
+    font-size: 40px;
+}
+
+#context{
+    color: red;
+}
+
+.links{
+    margin-top: 5%;
+   list-style-type: none;
+
+}
+
+#linke{
+    color: rgb(14, 105, 209);
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+#right{
+    color: red;
+}
+
+.copyright{
+    
+    margin-top: 10%;
+   margin-left: 10%;
+    text-align: center;
+}
+
+.copyright h3{
+    margin-top: 1%;
+}
